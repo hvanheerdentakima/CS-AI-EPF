@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Statistics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .team-container {
+            margin-bottom: 40px;
+        }
+        .team-header {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .player-stats {
+            margin-top: 10px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .player-stats th, .player-stats td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .player-stats th {
+            background-color: #f4f4f4;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<h1>CSGO Team Statistics</h1>
+<div id="team1" class="team-container">
+    <div class="team-header" id="team1-name"></div>
+    <table class="player-stats">
+        <thead>
+        <tr>
+            <th>Player Name</th>
+            <th>KD Ratio</th>
+            <th>Damage/Round</th>
+            <th>Kills/Round</th>
+            <th>Assists/Round</th>
+            <th>Deaths/Round</th>
+        </tr>
+        </thead>
+        <tbody id="team1-players"></tbody>
+    </table>
+</div>
+
+<div id="team2" class="team-container">
+    <div class="team-header" id="team2-name"></div>
+    <table class="player-stats">
+        <thead>
+        <tr>
+            <th>Player Name</th>
+            <th>KD Ratio</th>
+            <th>Damage/Round</th>
+            <th>Kills/Round</th>
+            <th>Assists/Round</th>
+            <th>Deaths/Round</th>
+        </tr>
+        </thead>
+        <tbody id="team2-players"></tbody>
+    </table>
+</div>
+
+<script>
+    async function loadTeamStats() {
+        try {
+            const response = await fetch('./playerStats.json');
+            const data = await response.json();
+
+            const team1 = data.find(team => team.team === 'Faze');
+            const team2 = data.find(team => team.team === 'Vitality');
+
+            if (team1) displayTeamStats('team1', team1);
+            if (team2) displayTeamStats('team2', team2);
+        } catch (error) {
+            console.error('Failed to load team stats:', error);
+        }
+    }
+
+    function displayTeamStats(containerId, team) {
+        const teamNameEl = document.getElementById(`${containerId}-name`);
+        const playersTableBody = document.getElementById(`${containerId}-players`);
+
+        teamNameEl.textContent = `${team.team} (Rank: ${team.rank})`;
+
+        team.playersStats.forEach(player => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                    <td>${player.playerName}</td>
+                    <td>${player.kdRatio}</td>
+                    <td>${player.damagePerRound}</td>
+                    <td>${player.killsPerRound}</td>
+                    <td>${player.assistsPerRound}</td>
+                    <td>${player.deathsPerRound}</td>
+                `;
+            playersTableBody.appendChild(row);
+        });
+    }
+
+    // Load stats on page load
+    document.addEventListener('DOMContentLoaded', loadTeamStats);
+</script>
+</body>
+</html>

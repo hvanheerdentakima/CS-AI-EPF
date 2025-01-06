@@ -1,0 +1,206 @@
+[
+  {
+    "team": "Vitality",
+    "rank": 4,
+    "playersStats": [
+      {
+        "playerName": "apEX",
+        "kdRatio": 0.99,
+        "damagePerRound": 76.8,
+        "killsPerRound": 0.69,
+        "assistsPerRound": 0.16,
+        "deathsPerRound": 0.69
+      },
+      {
+        "playerName": "ZywOo",
+        "kdRatio": 1.39,
+        "damagePerRound": 87.4,
+        "killsPerRound": 0.84,
+        "assistsPerRound": 0.13,
+        "deathsPerRound": 0.61
+      },
+      {
+        "playerName": "Spinx",
+        "kdRatio": 1.15,
+        "damagePerRound": 78,
+        "killsPerRound": 0.73,
+        "assistsPerRound": 0.13,
+        "deathsPerRound": 0.64
+      },
+      {
+        "playerName": "flameZ",
+        "kdRatio": 1.06,
+        "damagePerRound": 77.9,
+        "killsPerRound": 0.7,
+        "assistsPerRound": 0.15,
+        "deathsPerRound": 0.66
+      },
+      {
+        "playerName": "mezii",
+        "kdRatio": 1.1,
+        "damagePerRound": 77.4,
+        "killsPerRound": 0.7,
+        "assistsPerRound": 0.14,
+        "deathsPerRound": 0.63
+      }
+    ],
+    "teamRating": {
+      "pi": 0.014399999999999998,
+      "tau": 0.735557232186465
+    },
+    "teamMu": 51.0803633462823
+  },
+  {
+    "team": "Faze",
+    "rank": 5,
+    "playersStats": [
+      {
+        "playerName": "rain",
+        "kdRatio": 1.02,
+        "damagePerRound": 79.2,
+        "killsPerRound": 0.7,
+        "assistsPerRound": 0.15,
+        "deathsPerRound": 0.69
+      },
+      {
+        "playerName": "broky",
+        "kdRatio": 1.16,
+        "damagePerRound": 73.1,
+        "killsPerRound": 0.71,
+        "assistsPerRound": 0.11,
+        "deathsPerRound": 0.61
+      },
+      {
+        "playerName": "karrigan",
+        "kdRatio": 0.88,
+        "damagePerRound": 67.8,
+        "killsPerRound": 0.61,
+        "assistsPerRound": 0.14,
+        "deathsPerRound": 0.69
+      },
+      {
+        "playerName": "frozen",
+        "kdRatio": 1.18,
+        "damagePerRound": 82.7,
+        "killsPerRound": 0.75,
+        "assistsPerRound": 0.15,
+        "deathsPerRound": 0.64
+      },
+      {
+        "playerName": "olofmeister",
+        "kdRatio": 1.1,
+        "damagePerRound": 72.9,
+        "killsPerRound": 0.71,
+        "assistsPerRound": 0.13,
+        "deathsPerRound": 0.65
+      }
+    ],
+    "teamRating": {
+      "pi": 0.014399999999999998,
+      "tau": 0.6770952974579747
+    },
+    "teamMu": 47.02050676791492
+  },
+  {
+    "team": "Spirit",
+    "rank": 2,
+    "playersStats": [
+      {
+        "playerName": "chopper",
+        "kdRatio": 0.96,
+        "damagePerRound": 70.8,
+        "killsPerRound": 0.64,
+        "assistsPerRound": 0.13,
+        "deathsPerRound": 0.66
+      },
+      {
+        "playerName": "magixx",
+        "kdRatio": 1.04,
+        "damagePerRound": 70.2,
+        "killsPerRound": 0.64,
+        "assistsPerRound": 0.13,
+        "deathsPerRound": 0.62
+      },
+      {
+        "playerName": "donk",
+        "kdRatio": 1.26,
+        "damagePerRound": 88.8,
+        "killsPerRound": 0.85,
+        "assistsPerRound": 0.15,
+        "deathsPerRound": 0.67
+      },
+      {
+        "playerName": "zont1x",
+        "kdRatio": 1.05,
+        "damagePerRound": 77.3,
+        "killsPerRound": 0.68,
+        "assistsPerRound": 0.16,
+        "deathsPerRound": 0.65
+      },
+      {
+        "playerName": "sh1ro",
+        "kdRatio": 1.44,
+        "damagePerRound": 78.3,
+        "killsPerRound": 0.77,
+        "assistsPerRound": 0.11,
+        "deathsPerRound": 0.54
+      }
+    ],
+    "teamRating": {
+      "pi": 0.014399999999999998,
+      "tau": 0.7042829939561187
+    },
+    "teamMu": 48.908541246952694
+  },
+  {
+    "team": "Complexity",
+    "rank": 16,
+    "playersStats": [
+      {
+        "playerName": "Grim",
+        "kdRatio": 1.04,
+        "damagePerRound": 77.7,
+        "killsPerRound": 0.71,
+        "assistsPerRound": 0.14,
+        "deathsPerRound": 0.68
+      },
+      {
+        "playerName": "JT",
+        "kdRatio": 0.92,
+        "damagePerRound": 70.7,
+        "killsPerRound": 0.62,
+        "assistsPerRound": 0.15,
+        "deathsPerRound": 0.68
+      },
+      {
+        "playerName": "hallzerk",
+        "kdRatio": 1.11,
+        "damagePerRound": 72.8,
+        "killsPerRound": 0.71,
+        "assistsPerRound": 0.1,
+        "deathsPerRound": 0.64
+      },
+      {
+        "playerName": "EliGE",
+        "kdRatio": 1.1,
+        "damagePerRound": 83.3,
+        "killsPerRound": 0.75,
+        "assistsPerRound": 0.16,
+        "deathsPerRound": 0.68
+      },
+      {
+        "playerName": "T.c",
+        "kdRatio": 0.79,
+        "damagePerRound": 57.4,
+        "killsPerRound": 0.54,
+        "assistsPerRound": 0.17,
+        "deathsPerRound": 0.69
+      }
+    ],
+    "teamRating": {
+      "pi": 0.014399999999999998,
+      "tau": 0.5854960936265985
+    },
+    "teamMu": 40.65945094629157
+  }
+]

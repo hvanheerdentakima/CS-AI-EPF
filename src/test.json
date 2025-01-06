@@ -1,0 +1,42 @@
+{
+  "team": "Spirit",
+  "rank": 2,
+  "playersStats": [
+    {
+      "playerName": "chopper",
+      "kdRatio": 0.96,
+      "damagePerRound": 70.8,
+      "killsPerRound": 0.64,
+      "assistsPerRound": 0.13,
+      "deathsPerRound": 0.66
+    },
+    {
+      "playerName": "magixx",
+      "kdRatio": 1.04,
+      "damagePerRound": 70.2,
+      "killsPerRound": 0.64,
+      "assistsPerRound": 0.13,
+      "deathsPerRound": 0.62
+    },
+    {
+      "playerName": "donk",
+      "kdRatio": 1.26,
+      "damagePerRound": 88.8,
+      "killsPerRound": 0.85,
+      "assistsPerRound": 0.15,
+      "deathsPerRound": 0.67
+    },
+    {
+      "playerName": "zont1x",
+      "kdRatio": 1.05,
+      "damagePerRound": 77.3,
+      "killsPerRound": 0.68,
+      "assistsPerRound": 0.16,
+      "deathsPerRound": 0.65
+    }
+  ],
+  "teamRating": {
+    "pi": 0.014399999999999998,
+    "tau": 0.6892866704451485
+  }
+}
