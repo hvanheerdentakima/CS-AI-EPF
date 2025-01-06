@@ -202,5 +202,56 @@
       "tau": 0.5854960936265985
     },
     "teamMu": 40.65945094629157
+  },
+  {
+    "team": "Natus Vincere",
+    "rank": 7,
+    "playersStats": [
+      {
+        "playerName": "b1t",
+        "kdRatio": 1.11,
+        "damagePerRound": 75.8,
+        "killsPerRound": 0.7,
+        "assistsPerRound": 0.13,
+        "deathsPerRound": 0.63
+      },
+      {
+        "playerName": "Aleksib",
+        "kdRatio": 0.95,
+        "damagePerRound": 72.2,
+        "killsPerRound": 0.62,
+        "assistsPerRound": 0.17,
+        "deathsPerRound": 0.65
+      },
+      {
+        "playerName": "iM",
+        "kdRatio": 1.06,
+        "damagePerRound": 81.5,
+        "killsPerRound": 0.73,
+        "assistsPerRound": 0.14,
+        "deathsPerRound": 0.69
+      },
+      {
+        "playerName": "jL",
+        "kdRatio": 1.09,
+        "damagePerRound": 78.7,
+        "killsPerRound": 0.73,
+        "assistsPerRound": 0.14,
+        "deathsPerRound": 0.67
+      },
+      {
+        "playerName": "w0nderful",
+        "kdRatio": 1.31,
+        "damagePerRound": 76.6,
+        "killsPerRound": 0.76,
+        "assistsPerRound": 0.1,
+        "deathsPerRound": 0.58
+      }
+    ],
+    "teamRating": {
+      "pi": 0.014399999999999998,
+      "tau": 0.6938678664721767
+    },
+    "teamMu": 48.185268505012274
   }
 ]

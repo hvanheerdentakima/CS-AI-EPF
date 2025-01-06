@@ -296,11 +296,11 @@ function getTeamFromFile(teamName) {
   let team2Rating
   try {
     const { TrueSkill } = await import('ts-trueskill')
-    const { winProbability, quality_1vs1 } = await import('ts-trueskill')
+    const { winProbability, quality_1vs1, rate_1vs1 } = await import('ts-trueskill')
     const ts = new TrueSkill()
 
-    const teamName1 = 'Vitality' // Replace with team 1 name
-    const teamName2 = 'Spirit' // Replace with team 2 name
+    const teamName1 = 'Spirit' // Replace with team 1 name
+    const teamName2 = 'Natus Vincere' // Replace with team 2 name
 
     console.log(`Fetching data for ${teamName1}...`)
     team1Rating = await getPlayersForTeam(teamName1)
@@ -324,6 +324,15 @@ function getTeamFromFile(teamName) {
     console.log(`Win Probability - ${teamName1}:`, probTeam1Wins)
     console.log(`Win Probability - ${teamName2}:`, 1 - probTeam1Wins)
     console.log(`Quality:`, quality)
+
+    const rate = rate_1vs1(team1Rating, team2Rating);
+    console.log(`Updated Team 1 rating:`,  rate[0])
+    console.log(`Updated Team 2 rating:`,  rate[1])
+
+    const probTeam2Wins = winProbability([rate[0]], [rate[1]])
+    console.log(`Win Probability - ${teamName1}:`, probTeam2Wins)
+    console.log(`Win Probability - ${teamName2}:`, 1 - probTeam2Wins)
+
   } catch (err) {
     console.error(
       'Failed to fetch player stats or calculate probabilities:',
